@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imprima&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  letter-spacing: 1px;
+}
+.nav{
+    
+    background-color: #ffc907;
+    height: 170px;
+    width: 100%;
+    
+   
+}
+
+
+
+.wrapper {
+  width: 960px;
+  margin: -140px 250px;
+  
+}
+.wrapper ul {
+  list-style: none;
+  margin-top: 60px;
+  
+  
+}
+.ho{
+    margin-left: 1px;
+    
+}
+.ao{
+    margin-left: 1px;
+}
+.so{
+    margin-left: 1px;
+}
+.po{
+    margin-left: 1px;
+    
+}
+
+.wrapper ul li {
+  background: rgb(255, 255, 255);
+  color: rgb(38, 38, 38);
+  width: 170px;
+  height: 100px;
+  line-height: 42px;
+  text-align: center;
+  font-family: Imprima;
+  float: left;
+  font-size: 16px;
+  position: relative;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .3s;
+  border-radius: 2%;
+  border: 1px solid white;
+ 
+}
+.wrapper ul li:hover {
+  background:#b2b2b2;
+  
+}
+
+.wrapper ul ul {
+  display: none;
+  background: #b2b2b2;
+  font-size: small;
+  
+}
+.wrapper ul li:hover > ul {
+  display: block;
+  
+  
+}
+.wrapper ul ul ul {
+    
+  margin-top: -0px;  
+  margin-left: 170px;
+  border-radius:5px;
+  top: 0;
+  position: absolute;
+  font-style: italic;
+  
+  
+}
+.wrapper ul ul li{
+  height: 80px;
+  width: 180px;
+}
+.po ul p{
+  background: #dcdcdc;
+  height: 300px;
+  width: 380px;
+  border-radius: ;
+  font-size: small;
+}
+.wrapper ul ul ul li{
+  height: 80px;
+  width: 180px;
+  font-size: small;
+  
+}
+.button{
+    
+    margin: -120px 1050px;
+    
+}
+.btn-1{
+    height: 50px;
+    width: 127px;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    border:#b2b2b2;
+    cursor: pointer;
+
+}
+.btn-1:hover{
+    background: #919191;
+    color: rgb(0, 0, 0);
+    transition: .5s;
+}
+
+.background{
+ 
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(backgr.png);
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+}
+.un1{
+ 
+  
+  margin: 140px;
+  font-family: josefin Sans;
+  font-size: 60px;
+  font-weight: 700;
+
+}
+.un1 p1{
+  color: #ffc907;
+}
+.un2{
+ 
+ 
+  margin: 145px;
+  font-family: poppins;
+  font-size: 20px;
+}
+.un3{
+ 
+  margin: 10px;
+  padding: 10px;
+  display:flex;
+  align-content: center;
+  justify-content: space-between;
+  
+ 
+}
+.uno1{
+  margin-left: 100px;
+  font-size: 35px;
+  font-weight: 700;
+  color: #ffc907;
+  font-family: poppins;
+}
+.uno2{
+  margin-right: 100px;
+}
+
+.button-about{
+  margin: 0px 880px;
+  
+}
+.butt{
+  
+    height: 50px;
+    width: 127px;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    border:#b2b2b2;
+    cursor: pointer;
+}
+
+.boxlev{
+  background-color: #e8e8e8;
+  text-align: center;
+  height: 150px;
+  width: 100%;
+  font-size: 40px;
+  font-family: josefin Sans;
+  
+}
+.boxlevimg{
+  margin-top:-100px ;
+}
+.elgroup{
+  margin: 10px;
+  padding: 10px;
+  display:flex;
+  align-content: center;
+  justify-content: space-between;
+  font-size: 40px;
+
+}
+.p1{
+  font-weight: 700;
+  font-family: josefin sans;
+}
+.p2{
+  font-weight: 700;
+  font-family: josefin sans;
+}
+.p3{
+  font-weight: 700;
+  font-family: josefin sans;
+}
